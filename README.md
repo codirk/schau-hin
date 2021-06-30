@@ -16,5 +16,16 @@ systemctl start ssh
 systemctl enable ssh
 ```
 # dnsmaskd aktivieren
+```
+apt-get install net-tools
+apt-get install dnsmasq
+apt install dnsutils
+systemctl start dnsmasq
+``` 
+
+add server
+1.1.1.3
+1.0.0.3
+
 # squid proxy aktivieren
 # calamaris (log analysis)
