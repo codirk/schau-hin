@@ -23,7 +23,7 @@ apt install dnsutils
 systemctl start dnsmasq
 ``` 
 
-add server
+add server --> https://1.1.1.1/family/
 1.1.1.3
 1.0.0.3
 
